@@ -1,0 +1,26 @@
+.nav-container{
+    background-color: rgb(3,11,22); 
+    width:100%;
+    top:0;
+    display: inline-flex;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.btn-container{
+    padding-top:22px;
+    padding-bottom:22px;
+}
+
+@media(max-width:480px){
+    .hidden-xs{
+        display: none;
+    }
+
+    .hidden-xs > button{
+        padding:15px;
+    }
+}
+
